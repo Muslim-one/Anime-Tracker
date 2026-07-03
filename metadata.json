@@ -1,0 +1,6 @@
+{
+  "name": "Anime Tracker",
+  "description": "تطبيق أندرويد حديث وبسيط للغاية للبحث عن الأنمي من عدة مزودات مع نظام مفضلة وإشعارات للحلقات الجديدة بتصميم Bento Grid الاحترافي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
