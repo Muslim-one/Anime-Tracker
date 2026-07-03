@@ -30,5 +30,8 @@ jobs:
         gradle-version: '9.3.1'
         validate-wrappers: false
 
+    - name: Decode Keystore
+      run: base64 -d debug.keystore.base64 > debug.keystore
+
     - name: Run Build (Assemble Debug APK)
       run: gradle assembleDebug
